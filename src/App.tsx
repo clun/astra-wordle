@@ -70,7 +70,7 @@ function App() {
       />
       <div className="flex w-80 mx-auto items-center mb-8">
         <h1 className="text-xl grow font-bold">ASTRA BASED WORDLE</h1>
-        <img src="astra.svg" />
+        <img src="astra.svg" alt="description" />
         <InformationCircleIcon
           className="h-6 w-6 cursor-pointer"
           onClick={() => setIsInfoModalOpen(true)}
